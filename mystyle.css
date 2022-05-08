@@ -1,0 +1,489 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../IMAGES/background_opti.jpg");
+    background-size: cover;
+    font-family: basic-sans,sans-serif;
+    font-style: normal;
+    max-width: 1366px;
+    min-height: 300px;
+    overflow: auto;
+    }
+    
+}
+
+.header {
+    text-align: center;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float:left;
+    font-weight: 100;
+    
+}
+.container {
+ margin: auto;
+ text-align: center;
+    
+    
+}
+.socialmedia{
+  position: absolute;
+   top: 100px;
+   left: 40px;
+    
+}
+
+.logo img {
+ max-width: 200px;
+ margin: 20px;
+ margin-left:  100px;
+ margin-right: 300px; 
+
+}
+
+
+a {
+    text-decoration:none; 
+    color: black;       
+}
+h1 {
+   position: absolute;
+   top: 150px;
+   right: 40px;
+   font-size: 16px;
+   font-weight: 100;
+} 
+.topnav a{
+    float:none;
+    overflow: hidden;
+    text-decoration:none; 
+    color: black; 
+    list-style: none;
+}
+.topnav li {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left:  120px;
+    margin-right: 120px;
+    border-radius: 40px
+}
+
+.topnav ul li:hover {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    background-color: #CC9933;
+    padding: 10px;
+    transition: 0.10s;
+}
+.topnav ul li {
+    list-style: none;
+    position: relative;
+}
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background: #CC9925;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 6px 6px;
+    
+} 
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 6px 6px;
+} 
+.topnav ul li ul li {
+    padding: 8px 14px;
+      transition: .10s;
+}
+.topnav ul li ul li a {
+    border-radius: 10px;
+}
+
+.search { 
+  background: transparent;
+  border: 10px;
+  outline: none;
+  width: 40px;;
+  font-weight: 20;
+  font-size: 12px;
+  transition: 0.8s;
+  position: absolute;
+   top: 120px;
+   right: 40px;
+}
+.search  {
+  height: 8px;
+  border-radius: 20px;
+  padding: 8px 12px;
+  display: 80px;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  text-align: right;
+}
+.container:hover .search {
+  width: 150px;
+}
+
+.homepic{
+ margin:20px;
+ margin-left: 90px;
+ padding-top: 30px;
+ display: inline-flex;
+ width:100%;
+ padding: 0px; 
+
+}
+.homepic img {
+    border-radius: 20px;
+}
+h2 { 
+   margin: 5px;
+   position: absolute;
+   right: 100px;
+   font-size: 55px;
+   font-weight: 300px;
+    color: #CC9933;
+}
+.flex-container {
+    display: flex;
+    background-color: transparent;
+    clear:both;
+    padding-bottom: 20px;
+    margin-left: 60px; 
+    border-radius: 15px solid transparent;
+
+}
+.flex-container > div {
+    width: 400px; 
+    height: 200px;
+    margin: 30px;
+    line-height: auto;
+    color: black;
+    font-size: 25px; 
+}
+
+.feat img {
+    border-radius: 20px;
+    border-image:url("../IMAGES/feathome-oopti.jpg" 20px)
+}
+.signup img {
+     border-radius: 20px;
+    border-image:url("../IMAGES/signup-opti.jpg" 20px);
+}
+.contact img {
+    border-radius: 20px;
+    border-image:url("../IMAGES/contact-opti.jpg" )
+}
+.footer {
+  border-top: 1px solid black;
+  margin-left: 20px;
+  margin-right: -100px;
+}
+
+.socialfooter {
+  margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    float:left;
+}
+
+.contactfooter {
+    margin-top: 20px;
+    margin-left: 40px;
+    float:left;
+    border: 2px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 40px;
+    
+
+}
+.contactfooter {
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 16px;
+}
+
+.footerlogo img {
+ max-width: 200px;
+ margin: 20px;
+ margin-left:  100px;
+ margin-right: 450px; 
+    
+}
+.bottomnav {
+    overflow: hidden;
+}
+.bottomnav a {
+    float:right;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.bottomnav ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display:inline-flex;
+    position: absolute;
+    right: 40px;
+    padding: 8px 8px;
+    padding-right: 40px; 
+    margin-top: -150px
+ 
+}
+    
+ h3 {
+    font-size: 40px;
+    color: white;
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 620px;
+    top: 450px;
+
+    
+}
+
+h3 {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 16px;
+    margin-right: -300px; 
+}
+.flex-container1 img{
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.aboutinfo{
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    font-size: 30px;
+    right: 100px; 
+    font-weight: 30ppx;
+}
+.aboutinfo {
+   padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+}
+
+h4 {
+    font-size: 50px;
+    color: black;
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 600px;
+    
+}
+
+h4 {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 18px;
+    margin-top: 5px;
+}
+.flex-container2 {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear:both;
+}
+.flex-container2 div {
+    width:200px;
+    color:transparent;
+    text-align: center;
+    line-height: 2px;
+    margin: 20px;
+    padding-left: 40px;
+        
+}
+.flex-container2 img{
+    border-radius: 20px;
+}
+h5 { 
+    font-size: 22px;
+    font-weight: 20px;
+    color: black;
+    font-family: basic-sans,sans-serif;
+     
+}
+h5 p{
+    font-size: 15px;
+    float: inherit;
+    padding-right: 20px;
+}
+h6 {
+  
+    font-size: 50px;
+    color: black;
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 620px;
+    
+}
+
+h6 {
+    
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.flex-container3 {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    clear:both;
+}
+.flex-container3 div {
+    width: 90px;
+    color:transparent;
+    text-align: center;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.flex-container3 div img{
+    border-radius: 20px;
+
+}
+
+.flex-container4   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    clear:both;
+}
+
+.flex-container4  div{
+    width: 200px;
+    height: 500px;
+    color:transparent;
+    text-align: center;
+    margin: -30px;
+    padding-left: 20px;
+    padding-right: 400px;
+    
+}
+
+.flex-container4 h1 {
+    font-size: 50px;
+    color: black;
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 500px;
+    right: 595px;
+}
+.flex-container4 h1{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 125px; 
+    padding-left: 18px;
+    padding-right: 16px;
+    margin-bottom: 125px;
+    
+}
+.feat1 img{
+    border-radius: 20px;
+
+}
+.feat2 img{
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-top: -471px;
+    margin-bottom: 200px;
+
+}
+.feat1  h5 {
+    font-size: 20px;
+    color: black;
+   font-weight: 100; 
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 460px;
+}
+.feat2  h5 {
+    font-size: 20px;
+    color: black;
+   font-weight: 100; 
+    font-family: basic-sans,sans-serif;
+    position: absolute;
+    left: 880px;
+    bottom: -40px;
+}
+
+form > button{
+    border-radius: 12px;
+    background-color: transparent;
+    padding: 10px;
+    
+}
+form > button:hover {
+    background-color: darkolivegreen;
+    
+}
+label{
+      @extend .transition;
+      transform-origin: left center;
+      font-weight: 100;
+      letter-spacing: 0.01em;
+      font-size: 17px;
+      box-sizing: border-box;
+      padding: 50px ;
+    padding-left:560px;
+      display: block;
+      position: absolute;
+      margin-top: -40px;
+      z-index: 2;
+      pointer-events: none;
+          }
+dt {
+    font-family: basic-sans,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 80px;
+
+}
+
+dd{
+    font-family: basic-sans,sans-serif;
+    font-size: 18px;
+    padding-left: 80px;
+
+}
