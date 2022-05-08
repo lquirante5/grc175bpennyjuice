@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url("../IMAGES/background_opti.jpg");
+    background-image: url("background_opti.jpg");
     background-size: cover;
     font-family: basic-sans,sans-serif;
     font-style: normal;
